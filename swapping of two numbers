@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
-int a;
+int a;// we initialize the variable
 int b;
 printf("enter the two numbers for swapping");
 printf("\nenter the first number  ");
 scanf("%d",a);
 printf("\nenter the second number   ");
 scanf("%d",b);
-printf("\nnumbers before swapping a=%d b=%d",a,b);
-a=a+b;
-b=a-b;
-a=a-b;
+printf("\nnumbers before swapping a=%d b=%d",a,b);//before the swap
+a=a+b;//the new value of a
+b=a-b;//the new value of b is previous a - initialized b
+a=a-b;//the value of a is previous a-previous b
 printf("\nnumbers after swapping a=%d b=%d",a,b);
 return 0;
 }
