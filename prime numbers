@@ -1,0 +1,33 @@
+#include<stdio.h>
+int a,b,c,count;
+int prime(int a);
+int main(){
+printf("enter the number .. ");
+scanf("%d",&a);
+c=prime(a);
+if(count==2){
+printf("this ia a prime number "};
+else{
+printf("this is not a prime number "};
+printf("\ntotal numbers of factors that number have %d",a);
+}
+
+prime(a){
+for(b=1;b<=a;b++);
+{
+if(a%b==0)
+count++;}
+return count;
+}
+
+
+
+
+
+
+
+
+
+
+
+
