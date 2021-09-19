@@ -16,5 +16,5 @@ static int v=1;
 if(v%a==0&&v%b==0)
 return v;
 v++
-lcm(a,b);
+prime(a,b);
 }
