@@ -1,0 +1,20 @@
+#include<stdio.h>
+int a,b,c;
+int prime(int a,int b);
+int main(){
+printf("Enter any Two numbers ");
+printf("Enter the First number");
+scanf("%d",&a);
+printf("Enter the Second number");
+scanf("%d",&b);
+c=prime(a,b);
+printf("The LCM of two numbers is %d",c);
+}
+
+prime(a,b){
+static int v=1;
+if(v%a==0&&v%b==0)
+return v;
+v++
+lcm(a,b);
+}
