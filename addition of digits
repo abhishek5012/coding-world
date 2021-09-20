@@ -1,0 +1,19 @@
+#include<stdio.h>
+int a,b,c,h;
+
+int add(int a);
+int main(){
+printf("enter the number  ");
+scanf("\n%d",&a);
+c=add(a);
+printf("\nthe sum of the digits are %d  ",c);
+
+}
+int add(int a){
+
+b=a%10;
+h=h+b;
+a=a/10;
+if (b==0)
+return h;
+add(a);}
