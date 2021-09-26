@@ -29,7 +29,7 @@ for(i=0;i<n;i++){
 		
 		printf("\nemployee %d",i+1);
 		printf("\nEnter the employees name! ");
-		scanf("\n%s",employ[i].name);
+		scanf("\n%s",&employ[i].name);
 		printf("\nEnter the employees age !");
 	scanf("\n%d",&employ[i].age);
 	printf("\nEnter the employees age !");
@@ -45,6 +45,7 @@ void EPinfo(){
 	struct emp employ[n];
 
 for(i=0;i<n;i++){
+	printf("employee %d",i+1);
 		printf("Employee name %s",employ[i].name);
 	printf("Empolyee age %d",employ[i].age);	
 	printf("Employee phone number%d",employ[i].phone);
