@@ -1,0 +1,131 @@
+*{
+	font-family: montserrat;
+}
+.nav-items{
+	margin-left: 1500px;
+	margin-top: 50px;
+}
+li a{
+	margin-left: 200px;
+}
+nav img{
+border-radius: 60%;
+
+}
+.row {
+ align-items: center;
+ margin-left: 150px}
+
+
+ .bilo{
+ 	color: darkblue;
+ 	font-style: italic;
+ 	font-size: 26px;
+ 	margin-top: 30px;
+ 	margin-left: 1px;
+ }
+ #menu_bar img{
+ 	border-radius: 40%;
+ }
+ #menu_bar img:hover{
+ 	  box-shadow: 0 0 15px 15px seagreen;
+ }
+.col-sm-6 img{
+	border-radius: 50px; 
+	outline: 8px solid mediumturquoise;
+}
+.abopo{
+	padding: 50px;
+	background: yellow;
+	color: darkorange;
+	border-radius: 40px;
+font-style: italic;
+font-size: 26px;
+}
+.col-sm-3 img{
+	width: 200px;
+	height: 200px;
+	outline: 5px solid cornsilk;
+	border-radius: 50px;
+
+}
+.col-sm-3 img:hover{ 
+	box-shadow: 0 0 10px 10px seagreen;
+
+}
+
+input[type=text],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid black;
+}
+input[type=email]:focus {
+  border: 3px solid black;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=email],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email],input[type=text]:focus {
+  border: 3px solid black;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
+input[type=reset]:hover {
+  background-color:green;
+}
+
+.lio{
+	text-align: center;
+	text-decoration: underline;
+}
+.lio:hover{
+	color: darkred;
+	text-decoration: none;
+}
+.socio img{
+	border-radius: 50%;
+	margin-left: 40px;
+	border: 5px solid gray;
+}
+
+
+.socio img:hover{box-shadow: 0 0 5px 5px seagreen;
+
+}
