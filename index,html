@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>PORTFOLIO!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="booting.css">
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+<!--navigation-->
+
+
+
+
+
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="data:image/jpeg;base64,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" alt="" width="150" height="150" class="d-inline-block align-text-top">
+      
+    </a>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">It'& ME ABHI</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">DASHBOARD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"href="#">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"href="#">CONTACT ME</a>
+        </li>	
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--couresel--> 
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="jio.jfif" height="800px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>THE HOLI FESTIVAL</h5>
+        <p>Holi with the neighbours</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="happ.jfif"  height="800px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>THE DIWALI FESTIVAL</h5>
+        <p>Diwali with the family</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="diwal.jfif"height="800px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ITS ALONE</h5>
+        <p>My alone time </p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="hunnn.jfif"height="800px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ITS FUN </h5>
+        <p> my fun with members</p>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--menu bar-->
+<br><br><br><br>
+<section id="menu_bar"  class="container">
+	<h1 class="text-center">MY DASHBOARD</h1>
+  <br><br><br><br>
+	<div class="row">
+		<div class="col-sm-4">
+      <img src="https://cdn-icons-png.flaticon.com/128/942/942968.png">
+<br>
+      <p class="bilo">  EDUCATION </p>
+		</div>
+		<div class="col-sm-4">
+			<img src="https://cdn-icons-png.flaticon.com/128/1157/1157767.png"><br>
+      <p class="bilo"> SKILL SET</p>
+		</div>
+		<div class="col-sm-4">
+      <img src="https://cdn-icons.flaticon.com/png/128/1321/premium/1321098.png?token=exp=1638193314~hmac=c8b16322f0f502cfc4a3891e58f46999"><br>
+			<p class="bilo"> CERTIFICATES</p>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="row">
+		<div class="col-sm-4">
+      <img src="https://cdn-icons.flaticon.com/png/128/5361/premium/5361551.png?token=exp=1638193423~hmac=47ac15de5f73dc658846041963cff6bb"><br>
+			<p class="bilo"> HOBBIES</p>
+		</div>
+		<div class="col-sm-4">
+      <img src="https://cdn-icons-png.flaticon.com/128/752/752326.png"><br>
+			<p class="bilo"> NOTES </p>
+		</div>
+		<div class="col-sm-4">
+      <img src="https://cdn-icons-png.flaticon.com/128/2219/2219802.png"><br>
+			<p class="bilo"> FAMILY</p>
+		</div>
+	</div><br><br><br>
+	<div class="row">
+		<div class="col-sm-4">
+      <img src="https://cdn-icons.flaticon.com/png/128/2914/premium/2914192.png?token=exp=1638193750~hmac=9428cab371387ac31d31788043961fa0"><br>
+			<p class="bilo">  PHOTOS</p>
+		</div>
+		<div class="col-sm-4">
+      <img src="https://cdn-icons.flaticon.com/png/128/3220/premium/3220768.png?token=exp=1638193850~hmac=297d9492d7511fdade67e1f7296a7d4e"><br>
+			<p class="bilo"> FUN TIME</p>
+		</div>
+		<div class="col-sm-4">
+      <img src="https://cdn-icons-png.flaticon.com/128/2445/2445505.png"><br>
+			<p class="bilo"> PARTY TIME</p>
+		</div>
+	</div>
+</section>
+<!--the about me -->
+<br><br><br><br>
+<h2 class="text-center"> WANNA KNOW ABOUT ME </h2><br><br><br><br>
+<section id="about"  class="container">
+	<div class="row">
+	<div class="col-sm-6">
+   <img src="bhi.jfif" width="300px" height="300px"> 
+  </div>	
+<div class="col-sm-6">
+  <p class="abopo">
+    <br>*MY NAME IS ABHISHEK CHAUDHARY <br>
+    <br>*I AM 19 YEARS OLD <br>
+    <br>*MY BIRTH DATE IS 26 APRIL 2002 <br>
+    <br>*I BELONG TO A HINDU RELIGION <br>
+   </p>
+ </div>
+	</div>
+	<br><br><br><br>
+	<div class="row">
+		<div class="col-sm-3">
+		<img src="skol.jfif"width="150px" height="130px">  
+    </div>       
+		<div class="col-sm-3">
+		<img src="caall.jfif"width="150px" height="130px">
+		</div>
+		<div class="col-sm-3"> 
+      <img src="house.jfif"width="150px" height="130px">
+		</div>
+		<div class="col-sm-3">
+		  <img src="kangra.jfif"width="150px" height="130px">
+		</div>
+	</div>
+</section>
+
+<!--footer-->
+<footer class="container"><br><br><br>
+	<h2 class="text-center"> this is the footer page</h2>
+	<div class="foot">    
+<form>
+<p><h2>LEAVE YOUR ADORED  FEEDBACK</h2></p>
+<form>
+<label><h4>YOUR NAME</h4></label>
+<input type="text" name="name"placeholder="name" ><br>
+<label><h4>YOUR EMAIL</h4></label>
+<input type="email" name="Email"placeholder="Email" ><br>
+<label><h4>YOUR ADORED FEEDBACK</h4></label>
+<input type="text" name="feedback"placeholder="feedback"><br>
+<label><h4>SUGGESTION IF ANY!</h4></label>
+<input type="text" name="sugegestion "placeholder="sugession"><br><br><br>
+<input type="checkbox" name="ch"><label>want to address your Email during the submission of your adored feedback</label><br><br>
+<br>
+<input type="reset" name="">
+<input type="submit" name="">
+</form>
+    </div>
+		
+    <div class="socio">
+      <h3 class="text-center">COLLABORATE WITH ME ON  THE SOCIAL MEDIA!! </h3>
+      <section class="klp">
+        <img src="INSTA.JFIF"width="100px"height="100px">
+       <img src="fb.jfif"width="100px"height="100px"> 
+    </section>
+   </div>
+  <br>
+<!--COPYRIGHT INFORMATION-->
+  <p class="lio"><a href="#">copyright &copy; abhishekchaudary26april</p>
+  <p class="lio">with &hearts; family </p></a>
+    </div>
+   </footer>
